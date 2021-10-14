@@ -6,6 +6,6 @@ package com.yy.filecloud.core.FileContent;
  */
 public class File extends FileContent{
     public File(){
-
+        
     }
 }
