@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: file-cloud
+  thymeleaf:
+    cache: false
+#file path
+file-cloud:
+  path: D:/file-cloud
