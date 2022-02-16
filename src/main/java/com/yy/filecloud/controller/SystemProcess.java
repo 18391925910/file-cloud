@@ -14,7 +14,7 @@ public class SystemProcess {
     void test(){
         List<String> comments=new ArrayList<>();
         comments.add("echo \"start...\"\n");
-        comments.add("mkdir /usr/test\n");
+        comments.add("sudo mkdir /usr/test\n");
         ShellExecutor.runShell(comments);
     }
 }

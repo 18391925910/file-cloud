@@ -20,7 +20,7 @@ public class ShellExecutor {
                         new InputStreamReader(process.getInputStream(),"gbk"));
                 String line;
                 while ((line = bufferedReader.readLine()) != null) {
-                    System.out.println("Shell Executor[comment:"+comment+"],result:"+line);
+                    System.out.println("Shell Executor:"+line);
                 }
             }
         }catch (Exception e){
